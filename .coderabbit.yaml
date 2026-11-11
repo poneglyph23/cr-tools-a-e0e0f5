@@ -1,0 +1,128 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+language: en-US
+reviews:
+  profile: assertive
+  request_changes_workflow: false
+  high_level_summary: true
+  auto_review:
+    enabled: true
+    drafts: false
+  tools:
+    actionlint:
+      enabled: true
+    ast-grep:
+      enabled: true
+    biome:
+      enabled: true
+    blinter:
+      enabled: true
+    brakeman:
+      enabled: true
+    buf:
+      enabled: true
+    checkmake:
+      enabled: true
+    checkov:
+      enabled: true
+    circleci:
+      enabled: true
+    clang:
+      enabled: true
+    clippy:
+      enabled: true
+    cppcheck:
+      enabled: true
+    detekt:
+      enabled: true
+    dotenvLint:
+      enabled: true
+    emberTemplateLint:
+      enabled: true
+    eslint:
+      enabled: true
+    fbinfer:
+      enabled: true
+    flake8:
+      enabled: true
+    fortitudeLint:
+      enabled: true
+    github-checks:
+      enabled: true
+    gitleaks:
+      enabled: true
+    golangci-lint:
+      enabled: true
+    hadolint:
+      enabled: true
+    htmlhint:
+      enabled: true
+    languagetool:
+      enabled: true
+    luacheck:
+      enabled: true
+    markdownlint:
+      enabled: true
+    oasdiff:
+      enabled: true
+    opengrep:
+      enabled: true
+    osvScanner:
+      enabled: true
+    oxc:
+      enabled: true
+    phpcs:
+      enabled: true
+    phpmd:
+      enabled: true
+    phpstan:
+      enabled: true
+    pmd:
+      enabled: true
+    presidio:
+      enabled: true
+    prismaLint:
+      enabled: true
+    psscriptanalyzer:
+      enabled: true
+    pylint:
+      enabled: true
+    reactDoctor:
+      enabled: true
+    regal:
+      enabled: true
+    rubocop:
+      enabled: true
+    ruff:
+      enabled: true
+    semgrep:
+      enabled: true
+    shellcheck:
+      enabled: true
+    shopifyThemeCheck:
+      enabled: true
+    skillspector:
+      enabled: true
+    smartyLint:
+      enabled: true
+    sqlfluff:
+      enabled: true
+    squawk:
+      enabled: true
+    stylelint:
+      enabled: true
+    swiftlint:
+      enabled: true
+    tflint:
+      enabled: true
+    trivy:
+      enabled: true
+    trufflehog:
+      enabled: true
+    vale:
+      enabled: true
+    verilator:
+      enabled: true
+    yamllint:
+      enabled: true
+    zizmor:
+      enabled: true
